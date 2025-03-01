@@ -1,0 +1,131 @@
+@page "/projects"
+
+<PageTitle>Projects | Emil Moroder</PageTitle>
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1 class="display-4 mb-4">My Projects</h1>
+            <p class="lead">
+                Here's a collection of my most significant projects in machine learning, 
+                with a focus on healthcare applications and recommender systems.
+            </p>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Personalized Event Recommender System</h3>
+                    <span class="badge bg-success mb-3">Recommender Systems</span>
+                    <p class="card-text">
+                        Built a full-stack application in React Native that recommends personalized events to users.
+                        We web-scraped events from multiple websites and evaluated both content-based and collaborative 
+                        filtering methods such as matrix factorization.
+                    </p>
+                    <h5>Key Features:</h5>
+                    <ul>
+                        <li>Web scraping pipeline to collect event data from multiple sources</li>
+                        <li>Implementation of both content-based and collaborative filtering approaches</li>
+                        <li>Matrix factorization techniques for improved recommendation accuracy</li>
+                        <li>React Native mobile application with intuitive user interface</li>
+                    </ul>
+                    <h5>Technologies Used:</h5>
+                    <div class="d-flex flex-wrap mb-3">
+                        <span class="badge bg-secondary m-1">Python</span>
+                        <span class="badge bg-secondary m-1">React Native</span>
+                        <span class="badge bg-secondary m-1">scikit-learn</span>
+                        <span class="badge bg-secondary m-1">BeautifulSoup</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Medical Data Clustering Analysis</h3>
+                    <span class="badge bg-primary mb-3">Healthcare AI</span>
+                    <p class="card-text">
+                        Analyzed the MIMIC III dataset using various Variational Autoencoders (VAE) and Autoencoders (AE) 
+                        to cluster patient data and discover new combinations of biomarkers associated with specific health outcomes.
+                    </p>
+                    <h5>Key Features:</h5>
+                    <ul>
+                        <li>Implementation of multiple VAE and AE architectures for medical data analysis</li>
+                        <li>Unsupervised clustering of patient data to identify patterns</li>
+                        <li>Discovery of novel biomarker combinations associated with health outcomes</li>
+                        <li>Comprehensive evaluation of clustering performance</li>
+                    </ul>
+                    <h5>Technologies Used:</h5>
+                    <div class="d-flex flex-wrap mb-3">
+                        <span class="badge bg-secondary m-1">Python</span>
+                        <span class="badge bg-secondary m-1">TensorFlow</span>
+                        <span class="badge bg-secondary m-1">PyTorch</span>
+                        <span class="badge bg-secondary m-1">scikit-learn</span>
+                        <span class="badge bg-secondary m-1">Pandas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Multi-Modality Autoencoder</h3>
+                    <span class="badge bg-info mb-3">Deep Learning</span>
+                    <p class="card-text">
+                        Designed and built a custom autoencoder architecture capable of processing multiple modalities 
+                        (images and text) simultaneously. The architecture is extensible to N types of modalities and 
+                        includes both attention-based and normal fusion methods.
+                    </p>
+                    <h5>Key Features:</h5>
+                    <ul>
+                        <li>Custom autoencoder architecture for multi-modal data processing</li>
+                        <li>Support for combining images, text, and potentially other modalities</li>
+                        <li>Implementation of both attention-based and standard fusion methods</li>
+                        <li>Extensible design that can accommodate N types of input modalities</li>
+                    </ul>
+                    <h5>Technologies Used:</h5>
+                    <div class="d-flex flex-wrap mb-3">
+                        <span class="badge bg-secondary m-1">Python</span>
+                        <span class="badge bg-secondary m-1">PyTorch</span>
+                        <span class="badge bg-secondary m-1">Transformers</span>
+                        <span class="badge bg-secondary m-1">Computer Vision</span>
+                        <span class="badge bg-secondary m-1">NLP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">COVID Nightlife Tracking System</h3>
+                    <span class="badge bg-warning mb-3">.NET Development</span>
+                    <p class="card-text">
+                        Developed a .NET application during the COVID-19 pandemic to help control the spread of the virus 
+                        in nightlife venues. The system allowed doormen to scan customers and ensure they only entered one 
+                        venue per night, reducing cross-venue transmission.
+                    </p>
+                    <h5>Key Features:</h5>
+                    <ul>
+                        <li>Two interconnected applications: one for customers and one for doormen</li>
+                        <li>QR code scanning functionality for quick customer verification</li>
+                        <li>Real-time tracking of venue entries to enforce single-venue policy</li>
+                        <li>Secure data handling to protect user privacy</li>
+                    </ul>
+                    <h5>Technologies Used:</h5>
+                    <div class="d-flex flex-wrap mb-3">
+                        <span class="badge bg-secondary m-1">C#</span>
+                        <span class="badge bg-secondary m-1">.NET</span>
+                        <span class="badge bg-secondary m-1">SQL Server</span>
+                        <span class="badge bg-secondary m-1">Azure</span>
+                        <span class="badge bg-secondary m-1">Mobile Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
