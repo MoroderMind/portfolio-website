@@ -39,10 +39,6 @@ A personal portfolio website built with Blazor WebAssembly to showcase my skills
 4. Run `dotnet run` to start the application
 5. Open your browser and navigate to `http://localhost:5051`
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 Emil Moroder - [LinkedIn](https://www.linkedin.com/in/emil-dalgaard-moroder-3b2a72310/) - [GitHub](https://github.com/MoroderMind) - [Kaggle](https://www.kaggle.com/moroder) 
