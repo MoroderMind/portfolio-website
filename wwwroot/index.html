@@ -8,7 +8,13 @@
     <meta name="keywords" content="Emil Moroder, Machine Learning, Medical AI, Recommender Systems, Portfolio" />
     <meta name="author" content="Emil Moroder" />
     <title>Emil Moroder | Portfolio</title>
-    <base href="/portfolio-website/" />
+    <!-- Dynamic base href -->
+    <script>
+        // Check if we're running on GitHub Pages
+        const isGitHubPages = window.location.hostname.includes('github.io');
+        // Set the base href dynamically
+        document.write('<base href="' + (isGitHubPages ? '/portfolio-website/' : '/') + '" />');
+    </script>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />

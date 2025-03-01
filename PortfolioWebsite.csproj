@@ -4,7 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <StaticWebAssetBasePath>portfolio-website</StaticWebAssetBasePath>
+    <!-- Use StaticWebAssetBasePath only for Release builds (GitHub Pages) -->
+    <StaticWebAssetBasePath Condition="'$(Configuration)' == 'Release'">portfolio-website</StaticWebAssetBasePath>
   </PropertyGroup>
 
   <ItemGroup>
